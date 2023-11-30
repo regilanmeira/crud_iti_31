@@ -34,7 +34,11 @@
     <tr>
             <td><?php echo $linha["descricao"] ?></td>
             <td><?php echo $linha["preco"] ?></td>
-            <td><i class="fa-solid fa-eye fa-beat" style="color: #30c549;"></i></td>
+            <td>
+                <a href="lanche_ver.php?idlanche=<?php echo $linha["idLanche"]?>">
+                    <i class="fa-solid fa-eye fa-beat" style="color: #30c549;"></i>
+                </a>
+            </td>
     </tr>
 
     <?php
